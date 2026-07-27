@@ -1,0 +1,15 @@
+requirements = """
+streamlit
+pandas
+numpy
+scikit-learn
+librosa
+matplotlib
+seaborn
+"""
+
+with open('requirements.txt', 'w') as f:
+    f.write(requirements.strip())
+
+print("File 'requirements.txt' telah diperbarui dengan 'librosa'.")
+print("LANGKAH PENTING: Unduh file ini dan COMMIT/PUSH ke GitHub Anda.")
