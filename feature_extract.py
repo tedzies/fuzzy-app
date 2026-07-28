@@ -1,3 +1,7 @@
+import librosa
+import numpy as np
+SR = 22050  # Sampling rate
+
 def extract_features(path):
     y, sr = librosa.load(path, sr=SR, mono=True)
 
