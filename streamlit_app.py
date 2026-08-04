@@ -12,7 +12,7 @@ st.set_page_config(page_title="AI Music Mood Classifier", page_icon="🎵")
 
 st.title("🎵 Fuzzy Music Mood Classifier")
 st.markdown("""
-Klasifikasi mood musik menggunakan logika **Fuzzy Mamdani** dengan rule-base yang dibangung dengan **K-Medoids**.
+Klasifikasi mood musik menggunakan logika **Fuzzy Mamdani** dengan rule-base yang dibangun dengan **K-Medoids**.
 """)
 st.markdown("""
 Akurasi sistem hanya **44%** 
